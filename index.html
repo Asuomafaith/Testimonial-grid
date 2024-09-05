@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+    .parent-container{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .top-container{
+      display: grid;
+      grid-row-gap:15px;
+    }
+    .bottom-container{
+      display: grid;
+      grid-row-gap:15px;
+    }
+    .middle-container{
+      display: grid;
+      grid-row-gap:15px;
+    }
+    .content{
+      width: 250px;
+      display: flex;
+      
+      flex-direction: column;
+      border-radius: 5px;
+      background-color: hwb(263 25% 22%)
+    }
+    
+    .head{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding: 5px;
+     
+    }
+    .heads{
+      line-height: 0.1;
+      
+    }
+    .head1a{
+      color: white;
+      font-size: 16px;
+      font-family: arial;
+    }
+    .head2a{
+      color: grey;
+      font-size: 13px;
+      font-family: arial;
+    }
+    .p1{
+      color: white;
+      font-size: 14px;
+      
+      font-family: arial;
+      padding: 10px;
+    }
+    .p2{
+      color: rgb(177, 173, 173);
+      font-size: 11px;
+      font-family: arial;
+      padding: 10px;
+    }
+    .content2{
+      background-color: hsl(217, 19%, 35%);
+      width: 250px;
+      border-radius: 5px;
+     
+      
+      display: flex;
+      flex-direction: column;
+    }
+    .content3{
+      background-color: whitesmoke;
+      width: 250px;
+      border-radius: 5px;
+      
+    
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .p1a{
+      color:black;
+      font-size: 16px;
+      padding-left: 10px;
+      font-family: arial
+    }
+    .head1b{
+      color: black;
+      font-size: 16px;
+      font-family: arial;
+    }
+    .content4{
+      background-color:hsl(219, 29%, 14%);
+      width: 250px;
+      border-radius: 5px;
+     
+    
+      display: flex;
+      flex-direction: column;
+    }
+    .p{
+      color:white;
+      font-size: 16px;
+      font-family: arial;
+    }
+    .right-container{
+      background-color:whitesmoke;
+      width: 250px;
+      border-radius: 5px;
+    
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    img{
+      width: 50px;
+      height: 50px;
+      border: 2px solid white;
+      border-radius: 30px;
+      
+    }
+    @media(min-width:820px){
+      .parent-container{
+      display: flex;
+      flex-direction: row;
+      width: 850px;
+      
+      gap: 15px;
+    
+    }
+    .left-container{
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      gap: 15px;
+      
+    }
+    .right-container{
+      width: 25%;
+      
+    }
+      .top-container{
+        display: flex;
+        gap: 15px;
+    
+      }
+      .content{
+        width: 400px;
+        
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    
+    }
+    .bottom-container{
+      display: flex;
+      gap: 15px;
+    }
+    .content4{
+      width: 400px;
+     
+    }
+    
+ 
+  }
+  
+  </style>
+
+</head>
+<body style="background-color: hsl(0, 0%, 81%);">
+  <div class="parent-container">
+    <div class="left-container">
+      
+  <div class="top-container">
+    <div class="content">
+      <div class="head">
+      <div>
+        <img src="images/daniel.jpg">
+      </div>
+        <div class="heads">
+          <h3 class="head1a"> Daniel Clifford</h3> 
+          <p class="head2a">Verified Graduate</p>
+        </div>
+      </div>
+       <p class="p1">I received a job offer mid-course,<br> and the subjects I learned were current, if not more so,in the company I joined. I honestly feel<br> I got every penny’s worth.
+        </p> 
+     <p class="p2"> “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+     transition and have heard some people who had an amazing experience here. I signed up 
+     for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+      The next 12 weeks was the best - and most       grueling - time of my life. Since completing 
+      the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+    </div>
+  <div class="middle-container">
+  <div class="content2">
+    <div class="head">
+      <div>
+        <img src="images/image-jeanette.jpg"/>
+      </div>
+    <div class="heads">
+     <h2 class="head1a">Jonathan Walters</h2>
+      <p class="head2a">Verified Graduate</p>
+</div>
+</div>
+  <div>
+
+  <p class="p1">The team was very supportive and kept me motivated</p>
+
+ <p class="p2"> “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+  for a big company. This was one of the best investments I’ve made in myself. ”</p> 
+  </div>
+</div>
+  <div class="bottom-container">
+  <div class="content3">
+    <div class="head">
+      <div>
+        <img src="images/image-jonathan.jpg"/>
+      </div>
+   <div class="heads">
+      <h2 class="head1b">Jeanette Harmon</h2>
+      <p class="head2a">Verified Graduate</p>
+   </div>
+  </div>
+      <p class="p1a"> An overall wonderful and rewarding experience</p>
+
+      <p class="p2"> “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+  while doing something I love. ”</p>
+  </div>
+</div>
+  <div class="content4">
+    <div class="head">
+      <div>
+        <img src="images/image-kira.jpg"/>
+      </div>
+    <div class="heads">
+      <p class="head1a">Patrick Abrams</p>
+      <P class="head2a">Verified Graduate</P>
+    </div>
+  </div>
+       <p class="p1">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.</p>
+
+      <p class="p2"> The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+  junior developer. The standard is above the rest. You will get the personal attention you need from 
+  an incredible community of smart and amazing people. ”“</p>
+  </div>
+</div>
+
+
+<!--Closing of left container-->
+    </div>
+
+
+  <div class="right-container">
+    <div class="head">
+      <div>
+        <img src="images/image-patrick.jpg"/>
+      </div>
+    <div class="heads">
+      <h2 class="head1b">Kira Whittle</h2>
+      <p class="head2a">Verified Graduate</p>
+    </div>
+  </div>
+    <div>
+      <p class="p1a">Such a life-changing experience. Highly recommended!</p>
+
+      <p class="p2"> “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+      professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+     student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+     did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+      project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+      could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+      experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+      100% recommend! ”</p>
+    </div>
+
+    <!--Closing of right container-->
+  </div>
+  
+
+<!--Closing of general container-->
+  </div>
+</body>
+</html>
